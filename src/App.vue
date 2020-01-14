@@ -1,32 +1,47 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+  <v-app>
+    <v-app-bar app color="white" dark>
+      <router-link to="/home">
+        <v-btn text color="black">
+          <span class>Ludvig Karlsson</span>
+        </v-btn>
+      </router-link>
+      <v-spacer></v-spacer>
+      <router-link to="/education">
+        <v-btn text color="black">
+          <span>Education</span>
+        </v-btn>
+      </router-link>
+      <router-link to="/skills">
+        <v-btn text color="black">
+          <span>Skills</span>
+        </v-btn>
+      </router-link>
+      <router-link to="/about">
+        <v-btn text color="black">
+          <span>About Me</span>
+        </v-btn>
+      </router-link>
+      <router-link to="/contact">
+        <v-btn text color="black">
+          <span>Contact</span>
+        </v-btn>
+      </router-link>
+    </v-app-bar>
+    <v-content>
+      <router-view />
+    </v-content>
+  </v-app>
 </template>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
+export default {
+  name: "App",
 
-#nav {
-  padding: 30px;
-}
+  components: {},
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
-</style>
+  data: () => ({
+    //
+  })
+};
+</script>
