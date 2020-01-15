@@ -9,20 +9,25 @@
             </v-row>
           </v-col>
           <v-col offset="5" cols="8">
-            <v-row>
-              <v-btn class="mx-2" fab dark small color="primary">
-                <v-avatar>
-                  <img src="../assets/LinkedIn-300x300.png" />
+            <v-row offset="5" rows="10">
+              <v-btn class="mx-2" fab dark small color="white" @click="GoToLinkedin">
+                <v-avatar size="40">
+                  <img src="../assets/LI-In-Bug.png" />
                 </v-avatar>
               </v-btn>
-              <v-btn class="mx-2" fab dark small color="primary">
-                <v-avatar>
-                  <img src="../assets/LinkedIn-300x300.png" />
+              <v-btn class="mx-2" fab dark small color="primary" @click="GoToGithub">
+                <v-avatar size="40">
+                  <img src="../assets/github.png" />
                 </v-avatar>
               </v-btn>
-              <v-btn class="mx-2" fab dark small color="primary">
-                <v-avatar>
-                  <img src="../assets/LinkedIn-300x300.png" />
+              <v-btn class="mx-2" fab dark small color="white" @click="GoToLinkedin">
+                <v-avatar size="40">
+                  <img src="../assets/LI-In-Bug.png"/>
+                </v-avatar>
+              </v-btn>
+              <v-btn class="mx-2" fab dark small color="primary" @click="GoToGithub">
+                <v-avatar size="40">
+                  <img src="../assets/github.png" />
                 </v-avatar>
               </v-btn>
             </v-row>
@@ -36,5 +41,14 @@
 <script>
 // @ is an alias to /src
 
-export default {};
+export default {
+    methods:{
+        GoToLinkedin(){
+            window.location.href="https://www.linkedin.com/in/ludvig-karlsson-b47547140/"
+        },
+        GoToGithub(){
+            window.location.href="https://github.com/KarlssonLudvig"
+        }
+    }
+};
 </script>
