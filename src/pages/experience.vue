@@ -72,13 +72,6 @@ export default {
     getImgUrl(pic){
       return require(`@/assets/${pic}`)
     },
-    GoToLinkedin() {
-      window.location.href =
-        "https://www.linkedin.com/in/ludvig-karlsson-b47547140/";
-    },
-    GoToGithub() {
-      window.location.href = "https://github.com/KarlssonLudvig";
-    }
   }
 };
 </script>

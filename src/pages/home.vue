@@ -13,15 +13,6 @@
 // @ is an alias to /src
 
 export default {
-  methods: {
-    GoToLinkedin() {
-      window.location.href =
-        "https://www.linkedin.com/in/ludvig-karlsson-b47547140/";
-    },
-    GoToGithub() {
-      window.location.href = "https://github.com/KarlssonLudvig";
-    }
-  }
 };
 </script>
 

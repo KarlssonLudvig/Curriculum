@@ -51,8 +51,8 @@ const routes = [
     component: Experience
   },
   {   
-    path: '/education/Details/:id',
-    name: 'educationDetails',
+    path: '/education/details/:id',
+    name: 'educationdetails',
     component: EducationDetails
   },
 ]

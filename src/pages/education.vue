@@ -62,8 +62,10 @@ export default {
     getImgUrl(pic) {
       return require(`@/assets/${pic}`);
     },
-    goToDetails(id) {
-      this.$router.push({path: 'educationDetails/' + id})
+    goToDetails(title) {
+      // eslint-disable-next-line no-console
+      console.log(title)
+      this.$router.push({path: 'education/Details/' + title, params: {title: title}})
     }
   }
 };
