@@ -1,54 +1,29 @@
 <template>
-  <div>
-    <v-form ref="form">
-      <v-container fill-height>
-        <v-row>
-          <v-col offset="5" cols="8">
-            <v-row>
-              <h1 font-weight-bold>Ludvig Karlsson</h1>
-            </v-row>
-          </v-col>
-          <v-col offset="5" cols="8">
-            <v-row offset="5" rows="10">
-              <v-btn class="mx-2" fab dark small color="white" @click="GoToLinkedin">
-                <v-avatar size="40">
-                  <img src="../assets/LI-In-Bug.png" />
-                </v-avatar>
-              </v-btn>
-              <v-btn class="mx-2" fab dark small color="primary" @click="GoToGithub">
-                <v-avatar size="40">
-                  <img src="../assets/github.png" />
-                </v-avatar>
-              </v-btn>
-              <v-btn class="mx-2" fab dark small color="white" @click="GoToLinkedin">
-                <v-avatar size="40">
-                  <img src="../assets/LI-In-Bug.png"/>
-                </v-avatar>
-              </v-btn>
-              <v-btn class="mx-2" fab dark small color="primary" @click="GoToGithub">
-                <v-avatar size="40">
-                  <img src="../assets/github.png" />
-                </v-avatar>
-              </v-btn>
-            </v-row>
-          </v-col>
-        </v-row>
-      </v-container>
-    </v-form>
-  </div>
+  <v-container>
+    <v-row justify="center">
+      <p class="display-4">Ludvig Karlsson</p>
+    </v-row>
+    <v-row justify="center">
+      <p class="subtitle-2 text-center mb-10">Currently studying system development</p>
+    </v-row>
+  </v-container>
 </template>
 
 <script>
 // @ is an alias to /src
 
 export default {
-    methods:{
-        GoToLinkedin(){
-            window.location.href="https://www.linkedin.com/in/ludvig-karlsson-b47547140/"
-        },
-        GoToGithub(){
-            window.location.href="https://github.com/KarlssonLudvig"
-        }
+  methods: {
+    GoToLinkedin() {
+      window.location.href =
+        "https://www.linkedin.com/in/ludvig-karlsson-b47547140/";
+    },
+    GoToGithub() {
+      window.location.href = "https://github.com/KarlssonLudvig";
     }
+  }
 };
 </script>
+
+<style scoped>
+</style>

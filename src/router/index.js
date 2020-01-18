@@ -5,6 +5,10 @@ import About from '../pages/about.vue'
 import Contact from '../pages/contact.vue'
 import Education from '../pages/education.vue'
 import Skills from '../pages/skills.vue'
+import Experience from '../pages/experience.vue'
+import EducationDetails from '../pages/education_details.vue'
+
+
 
 
 
@@ -40,6 +44,16 @@ const routes = [
     path: '/skills',
     name: 'skills',
     component: Skills
+  },
+  {
+    path: '/experience',
+    name: 'experience',
+    component: Experience
+  },
+  {   
+    path: '/education/Details/:id',
+    name: 'educationDetails',
+    component: EducationDetails
   },
 ]
 

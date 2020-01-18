@@ -1,11 +1,11 @@
 <template>
   <div>
- <v-form ref="form">
+    <v-form ref="form">
       <v-container fill-height>
         <v-row>
           <v-col offset="5" cols="8">
             <v-row>
-                <h1 font-weight-bold>About Me</h1>
+              <h1 font-weight-bold>About Me</h1>
             </v-row>
           </v-col>
         </v-row>
