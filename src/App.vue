@@ -1,8 +1,11 @@
 <template>
   <v-app>
-    <v-app-bar app color="white" dark>
+    <v-app-bar elevation="24" app color="white" dark>
       <router-link tag="li" to="/home">
         <v-btn text color="black">
+          <v-avatar size="30">
+            <v-img class="mx-2" src="./assets/Luddis.jpg" max-height="40" max-width="40" contain></v-img>
+          </v-avatar>
           <span class>Ludvig Karlsson</span>
         </v-btn>
       </router-link>
@@ -37,7 +40,7 @@
       <router-view />
     </v-content>
     <v-col>
-      <v-row justify="center" >
+      <v-row justify="center">
         <v-btn class="mx-2" fab dark small color="white" @click="GoToLinkedin">
           <v-avatar size="40">
             <img src="./assets/LI-In-Bug.png" />
@@ -69,8 +72,7 @@ export default {
     }
   },
 
-  data: () => ({
-  })
+  data: () => ({})
 };
 </script>
 

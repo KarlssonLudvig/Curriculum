@@ -1,23 +1,17 @@
 <template>
   <div>
-    <v-form ref="form">
-      <v-container fill-height>
-        <v-row>
-          <v-col offset="5" cols="8">
-            <v-row>
-              <h1 font-weight-bold>My Skills</h1>
-            </v-row>
-          </v-col>
-        </v-row>
+    <v-container>
+      <v-row justify="center">
+        <p class="display-3">My Skills</p>
+      </v-row>
+    </v-container>
 
-        <v-col offset="5">
-          v-item-
-          <v-avatar size="80">
-            <img src="../assets/javascript.svg" alt />
-          </v-avatar>
-        </v-col>
-      </v-container>
-    </v-form>
+    <v-col offset="5">
+      v-item-
+      <v-avatar size="80">
+        <img src="../assets/javascript.svg" alt />
+      </v-avatar>
+    </v-col>
   </div>
 </template>
 

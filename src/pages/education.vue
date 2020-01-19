@@ -44,7 +44,7 @@ export default {
           src: "HB_Logo.jpg",
           title: "Systemarkitekt",
           company: "Högskolan i Borås",
-          description: "Systemarkitektur utbildningen i Borås",
+          description: "Systemarkitekturutbildningen i Borås",
           time: "2018 - 2021"
         },
         {
@@ -52,7 +52,7 @@ export default {
           src: "HB_Logo.jpg",
           title: "Systemvetare",
           company: "Högskolan i Borås",
-          description: "Systemvetar utbildningen i borås",
+          description: "Systemvetarutbildningen i Borås",
           time: "2017 - 2018"
         }
       ]
