@@ -25,11 +25,6 @@
           <span>Skills</span>
         </v-btn>
       </router-link>
-      <router-link tag="li" to="/about">
-        <v-btn text color="black">
-          <span>About Me</span>
-        </v-btn>
-      </router-link>
       <router-link tag="li" to="/contact">
         <v-btn text color="black">
           <span>Contact</span>
@@ -41,13 +36,13 @@
     </v-content>
     <v-col>
       <v-row justify="center">
-        <v-btn class="mx-2" fab dark small color="white" @click="GoToLinkedin">
-          <v-avatar size="40">
+        <v-btn class="mx-4" fab dark medium color="white" @click="GoToLinkedin">
+          <v-avatar size="50">
             <img src="./assets/LI-In-Bug.png" />
           </v-avatar>
         </v-btn>
-        <v-btn class="mx-2" fab dark small color="primary" @click="GoToGithub">
-          <v-avatar size="40">
+        <v-btn fab dark medium color="white" @click="GoToGithub">
+          <v-avatar size="50">
             <img src="./assets/github.png" />
           </v-avatar>
         </v-btn>

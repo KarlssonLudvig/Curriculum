@@ -5,7 +5,7 @@
         <v-row>
           <v-col offset="5" cols="8">
             <v-row>
-              <h1 font-weight-bold>Contact Me</h1>
+              <p class="display-3">Contact Me</p>
             </v-row>
           </v-col>
         </v-row>
@@ -27,8 +27,7 @@
             <v-btn text @click="MailTo">Inquiries</v-btn>
           </v-card-actions>
         </v-card>
-        <v-row>
-        </v-row>
+        <v-row></v-row>
       </v-container>
     </v-form>
   </div>

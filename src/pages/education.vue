@@ -5,7 +5,7 @@
         <v-row>
           <v-col offset="5" cols="8">
             <v-row>
-              <h1 font-weight-bold>Education</h1>
+              <p class="display-3">Education</p>
             </v-row>
           </v-col>
           <div class="row" v-bind:key="experience.id" v-for="experience in experiences">
@@ -21,7 +21,11 @@
                   <v-list-item-subtitle class="mb-2">{{experience.company}}</v-list-item-subtitle>
                   <v-list-item-subtitle id="copy" class="mb-2">{{experience.description}}</v-list-item-subtitle>
                   <v-list-item-title>{{experience.time}}</v-list-item-title>
-                  <v-btn @click="goToDetails(experience.title)" text color="deep-purple accent-4">Details</v-btn>
+                  <v-btn
+                    @click="goToDetails(experience.title)"
+                    text
+                    color="deep-purple accent-4"
+                  >Details</v-btn>
                 </v-list-item-content>
               </v-list-item>
             </v-card>
@@ -64,8 +68,11 @@ export default {
     },
     goToDetails(title) {
       // eslint-disable-next-line no-console
-      console.log(title)
-      this.$router.push({path: 'education/Details/' + title, params: {title: title}})
+      console.log(title);
+      this.$router.push({
+        path: "education/Details/" + title,
+        params: { title: title }
+      });
     }
   }
 };
