@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-app-bar elevation="24" app color="white" dark>
-      <router-link tag="li" to="/home">
+      <router-link tag="li" to="/">
         <v-btn text color="black">
           <v-avatar size="30">
             <v-img class="mx-2" src="./assets/Luddis.jpg" max-height="40" max-width="40" contain></v-img>
@@ -18,6 +18,11 @@
       <router-link tag="li" to="/education">
         <v-btn text color="black">
           <span>Education</span>
+        </v-btn>
+      </router-link>
+      <router-link tag="li" to="/skills">
+        <v-btn text color="black">
+          <span>Qualifications?</span>
         </v-btn>
       </router-link>
       <router-link tag="li" to="/contact">

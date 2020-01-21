@@ -1,0 +1,42 @@
+<template>
+  <v-container>
+    <v-row justify="center">
+      <p class="display-4">Qualifications</p>
+    </v-row>
+    <v-divider class="mt-7 mb-7" />
+
+    <v-row justify="center">
+      <p class="display-1 text-center">Programming Languages:</p>
+    </v-row>
+    <v-row justify="center">
+      <p class="display-1 text-center mr-7">C#</p>
+      <p class="display-1 text-center mr-7">Python</p>
+      <p class="display-1 text-center">C</p>
+    </v-row>
+    <v-divider class="mt-7 mb-7" />
+    <v-row justify="center">
+      <p class="display-1 text-center">Frameworks:</p>
+    </v-row>
+    <v-row justify="center">
+      <p class="display-1 text-center mr-7">.Net</p>
+      <p class="display-1 text-center mr-7">Entity Framework</p>
+      <p class="display-1 text-center">Framework3</p>
+    </v-row>
+    <v-divider class="mt-7 mb-7" />
+    <v-row justify="center">
+      <p class="display-1 text-center">Techniques?:</p>
+    </v-row>
+    <v-row justify="center">
+      <p class="display-1 text-center mr-7">REST</p>
+      <p class="display-1 text-center mr-7">MVC</p>
+      <p class="display-1 text-center">Test</p>
+    </v-row>
+  </v-container>
+</template>
+
+<script>
+export default {};
+</script>
+
+<style>
+</style>

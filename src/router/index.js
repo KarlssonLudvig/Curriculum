@@ -5,6 +5,7 @@ import Contact from '../pages/contact.vue'
 import Education from '../pages/education.vue'
 import Experience from '../pages/experience.vue'
 import EducationDetails from '../pages/education_details.vue'
+import Skills from '../pages/skills.vue'
 
 
 
@@ -16,9 +17,14 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/home',
+    path: '/',
     name: 'home',
     component: Home
+  },
+  {
+    path: '/skills',
+    name: 'skills',
+    component: Skills
   },
   {
     path: '/contact',
