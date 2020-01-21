@@ -20,11 +20,6 @@
           <span>Education</span>
         </v-btn>
       </router-link>
-      <router-link tag="li" to="/skills">
-        <v-btn text color="black">
-          <span>Skills</span>
-        </v-btn>
-      </router-link>
       <router-link tag="li" to="/contact">
         <v-btn text color="black">
           <span>Contact</span>
