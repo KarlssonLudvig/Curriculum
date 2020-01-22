@@ -37,24 +37,24 @@ export default {
           src: "MAN_BE_Logo_SS_STK_MC_RGB-72.jpg",
           title: "Lagerarbetare",
           company: "Manpower",
-          description: "Sommar- och extrajobb på DHL i viared",
-          time: "maj 2018 - nu"
+          description: "Working part-time at DHL in Viared",
+          time: "May 2018 - now"
         },
         {
           id: 1,
           src: "Liseberg_logo.png",
           title: "Butiksbiträde",
           company: "Liseberg",
-          description: "Sommar- och extrajobb",
-          time: "augusti 2017 - januari 2018"
+          description: "Part-time",
+          time: "August 2017 - January 2018"
         },
         {
           id: 2,
           src: "motorit.png",
           title: "IT Support",
           company: "Motor IT",
-          description: "Sommar- och extrajobb",
-          time: "Juni 2014 - aug 2016"
+          description: "Part-time",
+          time: "June 2014 - August 2016"
         }
       ]
     };

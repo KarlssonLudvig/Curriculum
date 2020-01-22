@@ -19,17 +19,16 @@
     </v-row>
     <v-row justify="center">
       <p class="display-1 text-center mr-7">.Net</p>
-      <p class="display-1 text-center mr-7">Entity Framework</p>
-      <p class="display-1 text-center">Framework3</p>
     </v-row>
     <v-divider class="mt-7 mb-7" />
     <v-row justify="center">
-      <p class="display-1 text-center">Techniques?:</p>
+      <p class="display-1 text-center">Techniques:</p>
     </v-row>
     <v-row justify="center">
       <p class="display-1 text-center mr-7">REST</p>
       <p class="display-1 text-center mr-7">MVC</p>
-      <p class="display-1 text-center">Test</p>
+      <p class="display-1 text-center mr-7">JSON</p>
+      <p class="display-1 text-center">XML</p>
     </v-row>
   </v-container>
 </template>

@@ -1,10 +1,17 @@
 <template>
   <v-container>
     <v-row justify="center">
+      <v-avatar size="200">
+        <img src="../assets/Anka.jpeg"/>
+      </v-avatar>
+    </v-row>
+    <v-row justify="center">
       <p class="display-4">Ludvig Karlsson</p>
     </v-row>
     <v-row justify="center">
-      <p class="subtitle-2 text-center">Currently studying system development at Högskolan i Borås</p>
+      <p
+        class="subtitle-2 text-center"
+      >A twenty-one year old student currently studying system development at Högskolan i Borås</p>
     </v-row>
     <v-divider class="mt-7 mb-7" />
     <v-row justify="center">
@@ -21,7 +28,9 @@
       >I'm passionate about programming and I strive to learn more and more for each passing day. I'm a purposeful individual able to work both alone and in a group.</p>
     </v-row>
     <v-row justify="center">
-      <p class="subtitle-2 text-center">I'm first and foremost a back-end developer, but I do enjoy front-end and practice daily with the goal of improving my capabilites.</p>
+      <p
+        class="subtitle-2 text-center"
+      >I'm first and foremost a back-end developer, but I do enjoy front-end and practice daily with the goal of improving my capabilites.</p>
     </v-row>
     <v-divider class="mb-7 mt-4" />
   </v-container>
