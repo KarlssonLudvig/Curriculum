@@ -2,7 +2,7 @@
   <div>
     <v-contrainer>
       <v-row justify="center" class="mt-10">
-        <v-card raised class="mx-auto, mb-10" max-width="1000" height="1000" outline>
+        <v-card raised class="mx-auto, mb-10" max-width="1000" height="1000">
           <v-list-item three-line>
             <v-list-item-content>
               <div class="overline mb-4">

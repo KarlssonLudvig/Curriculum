@@ -6,7 +6,7 @@
     <v-row>
       <template v-for="experience in experiences">
         <v-col v-bind:key="experience.id" xl="3" lg="4" md="4" sm="4" xs="1" offset-xs="3">
-          <v-card raised outlined>
+          <v-card raised>
             <v-list-item three-line>
               <v-list-item-content>
                 <div class="mb-4">

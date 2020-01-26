@@ -10,7 +10,7 @@
           </v-col>
         </v-row>
 
-        <v-card raised class="mx-auto" max-width="400" outlined>
+        <v-card raised class="mx-auto" max-width="400" >
           <v-list-item three-line>
             <v-list-item-content>
               <div class="overline mb-4">

@@ -9,7 +9,7 @@
             </v-row>
           </v-col>
           <div class="row" v-bind:key="experience.id" v-for="experience in experiences">
-            <v-card raised class="mx-auto, mb-10" max-width="375" outlined>
+            <v-card raised class="mx-auto, mb-10" max-width="375">
               <v-list-item three-line>
                 <v-list-item-content>
                   <div class="overline mb-4">

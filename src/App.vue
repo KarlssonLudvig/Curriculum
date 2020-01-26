@@ -1,10 +1,10 @@
 <template>
   <v-app>
-    <v-app-bar elevation="24" app color="white" dark>
+    <v-app-bar elevation="24" app color="white" dark hide-on-scroll >
       <router-link tag="li" to="/">
         <v-btn text color="black">
           <v-avatar size="30">
-            <v-img class="mx-2" src="./assets/Luddis.jpg" max-height="40" max-width="40" contain></v-img>
+            <v-img class="mx-2" src="./assets/Profile.jpg" max-height="40" max-width="40" contain></v-img>
           </v-avatar>
           <span class>Ludvig Karlsson</span>
         </v-btn>
@@ -22,7 +22,7 @@
       </router-link>
       <router-link tag="li" to="/skills">
         <v-btn text color="black">
-          <span>Qualifications?</span>
+          <span>Qualifications</span>
         </v-btn>
       </router-link>
       <router-link tag="li" to="/contact">
