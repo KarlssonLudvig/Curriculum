@@ -11,7 +11,9 @@
         <p class="display-1 text-center mr-7">C#</p>
         <p class="display-1 text-center mr-7">Python</p>
         <p class="display-1 text-center mr-7">C</p>
-        <p class="display-1 text-center">Javascript</p>
+        <p class="display-1 text-center mr-7">Javascript</p>
+        <p class="display-1 text-center mr-7">HTML</p>
+        <p class="display-1 text-center">CSS</p>
       </v-row>
       <v-divider class="mt-7 mb-7" />
       <v-row justify="center">
@@ -30,7 +32,7 @@
         <p class="display-1 text-center mr-7">MVC</p>
         <p class="display-1 text-center mr-7">JSON</p>
         <p class="display-1 text-center">XML</p>
-      </v-row>§
+      </v-row>
     </v-card>
   </v-container>
 </template>

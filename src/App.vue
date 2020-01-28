@@ -1,36 +1,41 @@
 <template>
   <v-app>
-    <v-app-bar elevation="24" app color="white" dark hide-on-scroll >
-      <router-link tag="li" to="/">
+    <v-app-bar elevation="24" app color="white" dark hide-on-scroll>
+      <v-app-bar-nav-icon color="pink" dark @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
+    </v-app-bar>
+
+    <v-navigation-drawer v-model="drawer" absolute temporary>
+      <router-link tag="p" to="/">
         <v-btn text color="black">
           <v-avatar size="30">
             <v-img class="mx-2" src="./assets/Profile.jpg" max-height="40" max-width="40" contain></v-img>
           </v-avatar>
-          <span class>Ludvig Karlsson</span>
+          <span>Ludvig Karlsson</span>
         </v-btn>
       </router-link>
-      <v-spacer></v-spacer>
-      <router-link tag="li" to="/experience">
+      <v-divider></v-divider>
+      <router-link tag="p" to="/experience">
         <v-btn text color="black">
           <span>Work Experience</span>
         </v-btn>
       </router-link>
-      <router-link tag="li" to="/education">
+      <router-link tag="p" to="/education">
         <v-btn text color="black">
           <span>Education</span>
         </v-btn>
       </router-link>
-      <router-link tag="li" to="/skills">
+      <router-link tag="p" to="/skills">
         <v-btn text color="black">
           <span>Qualifications</span>
         </v-btn>
       </router-link>
-      <router-link tag="li" to="/contact">
+      <router-link tag="p" to="/contact">
         <v-btn text color="black">
           <span>Contact</span>
         </v-btn>
       </router-link>
-    </v-app-bar>
+    </v-navigation-drawer>
+
     <v-content>
       <router-view />
     </v-content>
@@ -67,9 +72,12 @@ export default {
     }
   },
 
-  data: () => ({})
+  data() {
+    return {
+      drawer: null
+    };
+  }
 };
 </script>
-
 <style scoped>
 </style>

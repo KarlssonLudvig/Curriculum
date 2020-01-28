@@ -1,50 +1,48 @@
 <template>
-  <div>
-    <v-contrainer>
-      <v-row justify="center" class="mt-10">
-        <v-card raised class="mx-auto, mb-10" max-width="1000" height="1000">
-          <v-list-item three-line>
-            <v-list-item-content>
-              <div class="overline mb-4">
-                <v-img height="60" width="300" tile>
-                  <v-img :src="getImgUrl(experience.src)" contain></v-img>
-                </v-img>
-              </div>
-              <v-list-item-title class="headline mb-3">{{experience.title}}</v-list-item-title>
-              <v-list-item-subtitle class="mb-6">{{experience.company}}</v-list-item-subtitle>
-              <v-list-item-subtitle class="mb-6">{{experience.description}}</v-list-item-subtitle>
-              <v-list-item-title>{{experience.time}}</v-list-item-title>
-            </v-list-item-content>
-          </v-list-item>
-          <v-divider />
-          <v-list-item>
-            <v-list-item-content>
-              <v-list-item-title class="headline mb-3">Current courses:</v-list-item-title>
-              <v-list-item-subtitle
-                v-if="experience.currentCourses.length == 0"
-              >I'm no longer studying this program.</v-list-item-subtitle>
+  <v-container>
+    <v-row justify="center" class="mt-10">
+      <v-card raised class="mb-10">
+        <v-list-item three-line>
+          <v-list-item-content>
+            <div class="mb-4">
+              <v-img height="60" width="300">
+                <v-img :src="getImgUrl(experience.src)" contain></v-img>
+              </v-img>
+            </div>
+            <v-list-item-title class="headline mb-3">{{experience.title}}</v-list-item-title>
+            <v-list-item-subtitle class="mb-6">{{experience.company}}</v-list-item-subtitle>
+            <v-list-item-subtitle class="mb-6">{{experience.description}}</v-list-item-subtitle>
+            <v-list-item-title>{{experience.time}}</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+        <v-divider />
+        <v-list-item>
+          <v-list-item-content>
+            <v-list-item-title class="headline mb-3">Current courses:</v-list-item-title>
+            <v-list-item-subtitle
+              v-if="experience.currentCourses.length == 0"
+            >I'm no longer studying this program.</v-list-item-subtitle>
 
-              <div v-bind:key="currentCourse.id" v-for="currentCourse in experience.currentCourses">
-                <v-list-item-subtitle class="mb-6">{{currentCourse.name}}</v-list-item-subtitle>
-              </div>
-            </v-list-item-content>
-          </v-list-item>
-          <v-divider />
-          <v-list-item>
-            <v-list-item-content>
-              <v-list-item-title class="headline mb-3">Completed courses:</v-list-item-title>
-              <div
-                v-bind:key="completedcourse.id"
-                v-for="completedcourse in experience.completedcourses"
-              >
-                <v-list-item-subtitle class="mb-6">{{completedcourse.name}}</v-list-item-subtitle>
-              </div>
-            </v-list-item-content>
-          </v-list-item>
-        </v-card>
-      </v-row>
-    </v-contrainer>
-  </div>
+            <div v-bind:key="currentCourse.id" v-for="currentCourse in experience.currentCourses">
+              <v-list-item-subtitle class="mb-6">{{currentCourse.name}}</v-list-item-subtitle>
+            </div>
+          </v-list-item-content>
+        </v-list-item>
+        <v-divider />
+        <v-list-item>
+          <v-list-item-content>
+            <v-list-item-title class="headline mb-3">Completed courses:</v-list-item-title>
+            <div
+              v-bind:key="completedcourse.id"
+              v-for="completedcourse in experience.completedcourses"
+            >
+              <v-list-item-subtitle class="mb-6">{{completedcourse.name}}</v-list-item-subtitle>
+            </div>
+          </v-list-item-content>
+        </v-list-item>
+      </v-card>
+    </v-row>
+  </v-container>
 </template>
 
 <script>

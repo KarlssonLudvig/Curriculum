@@ -1,15 +1,14 @@
 <template>
-  <div>
     <v-form ref="form">
       <v-container fill-height>
         <v-row>
           <v-col offset="5" cols="8">
             <v-row>
-              <p class="display-3">Education</p>
+              <p class="display-3">Experiences</p>
             </v-row>
           </v-col>
           <div class="row" v-bind:key="experience.id" v-for="experience in experiences">
-            <v-card raised class="mx-auto, mb-10" max-width="375">
+            <v-card raised class="mx-auto, mb-10" max-width="375" outlined>
               <v-list-item three-line>
                 <v-list-item-content>
                   <div class="overline mb-4">
@@ -33,7 +32,6 @@
         </v-row>
       </v-container>
     </v-form>
-  </div>
 </template>
 
 <script>
