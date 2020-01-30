@@ -15,10 +15,12 @@
             <img src="../assets/Email.jpg" height="40" alt />
           </div>
           <v-list-item-title class="headline mb-3">EMAIL</v-list-item-title>
-          <v-list-item-title>Ludvig.kh.karlsson@gmail.com</v-list-item-title>
-          <v-card-actions>
+          <v-list-item-title class="mb-4">Ludvig.kh.karlsson@gmail.com</v-list-item-title>
+          <v-list-item-title>0762744458</v-list-item-title>
+
+          <!-- <v-card-actions>
             <v-btn x-small max-width="10">Copy</v-btn>
-          </v-card-actions>
+          </v-card-actions>-->
         </v-list-item-content>
       </v-list-item>
       <v-card-actions>
