@@ -53,110 +53,114 @@ export default {
         {
           id: 0,
           src: "HB_Logo.jpg",
-          title: "Systemarkitekt",
-          company: "Högskolan i Borås",
-          description: "Systemarkitekturutbildningen i Borås",
+          title: "Computer and Systems Science",
+          company: "University of Borås",
+          description: "Computer and Systems Science at University of Borås",
           time: "2018 - 2021",
           completedcourses: [
             {
               id: 1,
-              name: "Informationssystem och data"
+              name: "Information Systems and Data"
             },
             {
               id: 2,
-              name: "Programutveckling - en datalogisk introduktion"
+              name: "Introduction to Computer Science"
             },
             {
               id: 3,
-              name: "Systemanalys och design"
+              name: "System Analysis and Design"
             },
             {
               id: 4,
-              name: "Programmeringsteknik"
+              name: "Computer Programming"
             },
             {
               id: 5,
-              name: "Systemutvecklare - roller, miljö och praktik"
+              name: "Developer - roles, environment and practice"
             },
             {
               id: 6,
-              name: "Algoritmer och datastrukturer 1"
+              name: "Algorithms and Data Structures I"
             },
             {
               id: 7,
-              name: "Datakommunikation"
+              name: "Algorithms and Data Structures II"
             },
             {
               id: 8,
-              name: "Databasteknik"
+              name: "Computer Communication"
             },
             {
               id: 9,
-              name: "Objektorienterad programmering i C#"
+              name: "Database Management Systems"
             },
             {
               id: 10,
-              name: "Test av IT-system"
+              name: "Object-oriented Programming in C#"
             },
             {
               id: 11,
-              name: "Webb- och mobilutveckling "
+              name: "System Testing"
+            },
+            {
+              id: 12,
+              name: "Web and Mobile Development"
             }
           ],
           currentCourses: [
             {
               id: 0,
-              name: "Maskininlärning 1"
+              name: "Machine Learning I"
             },
             {
               id: 1,
-              name: "Objektorienterad mjukvaruutveckling"
+              name: "Object-oriented Software Development"
             }
           ]
         },
         {
           id: 1,
           src: "HB_Logo.jpg",
-          title: "Systemvetare",
-          company: "Högskolan i Borås",
-          description: "Systemvetarutbildningen i borås",
+          title: "Systems Science",
+          company: "University of Borås",
+          description: "Systems Science at University of Borås",
           time: "2017 - 2018",
           completedcourses: [
             {
               id: 0,
-              name: "System- och Organisationsteori"
+              name: "Systemics and Management"
             },
             {
               id: 1,
 
               name:
-                "Introduktion till programutveckling - från information till tillämpning"
+                "Introduction to Program Development - from Information to Applications"
             },
             {
               id: 2,
 
-              name: "Interaktionsdesign"
+              name: "Interaction design"
             },
             {
               id: 3,
 
-              name: "Systemanalys och Design"
+              name: "System Analysis and Design"
             },
 
             {
               id: 4,
 
-              name: "Grundläggande programmering med C#"
+              name: "Basics of Programming, with C#"
             },
             {
               id: 5,
 
-              name: "Systemutvecklare - roller, miljö och praktik "
+              name: "Developer - roles, environment and practice"
             },
             {
               id: 6,
 
-              name: "Introduktion till verksamhetsprocesser och affärssystem"
+              name: "Introduction to Business Processes and Enterprise Systems"
             }
           ],
           currentCourses: []
@@ -179,8 +183,4 @@ export default {
 </script>
 
 <style>
-.sdf {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-}
 </style>

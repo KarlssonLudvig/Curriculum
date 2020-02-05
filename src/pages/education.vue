@@ -38,17 +38,17 @@ export default {
         {
           id: 0,
           src: "HB_Logo.jpg",
-          title: "Systemarkitekt",
-          company: "Högskolan i Borås",
-          description: "Systemarkitekturutbildningen i Borås",
+          title: "Computer and Systems Science",
+          company: "University of Borås",
+          description: "Computer and Systems Science at University of Borås",
           time: "2018 - 2021"
         },
         {
           id: 1,
           src: "HB_Logo.jpg",
-          title: "Systemvetare",
-          company: "Högskolan i Borås",
-          description: "Systemvetarutbildningen i Borås",
+          title: "Systems Science",
+          company: "University of Borås",
+          description: "Systems Science at University of Borås",
           time: "2017 - 2018"
         }
       ]
