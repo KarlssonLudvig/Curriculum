@@ -12,7 +12,7 @@
       <v-list-item three-line>
         <v-list-item-content>
           <div class="mb-4">
-            <img src="../assets/Email.jpg" height="40" alt />
+            <img @click="MailTo" src="../assets/Email.jpg" height="40" alt />
           </div>
           <v-list-item-title class="headline mb-3">EMAIL</v-list-item-title>
           <v-list-item-title class="mb-4">Ludvig.kh.karlsson@gmail.com</v-list-item-title>
@@ -24,7 +24,7 @@
         </v-list-item-content>
       </v-list-item>
       <v-card-actions>
-        <v-btn text @click="MailTo">Inquiries</v-btn>
+        <v-btn elevation="7" rounded outlined @click="MailTo">Inquiries</v-btn>
       </v-card-actions>
     </v-card>
   </div>
